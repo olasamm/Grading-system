@@ -1,15 +1,17 @@
 
-/* body{
+ body{
     height: 100vh;
     width: 100%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(red, green, blue);
-} */
+    background-image: linear-gradient(45deg, #fc34fc, grey);
+} 
 
-
+::placeholder{
+    text-align: center;
+}
 .sam{
     margin: 0 auto;
 }
