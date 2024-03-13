@@ -25,8 +25,7 @@
 
 
         function check() {
-             if (num.value == "") {
-            error.style.display = "block"
+             if (num.value !== "") {
                 if (num.value >= 0 && num.value < 40) {
                     show.value = "F - Fail😖"
                 } else if(num.value >= 40 && num.value < 45){
