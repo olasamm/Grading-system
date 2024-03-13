@@ -28,6 +28,9 @@
         function check() {
             if (num.value == ""){
                 error.style.display = "block"
+                setTimeout(() => {
+                    error.style.display = "none"
+                }, 2000);
             }
              if (num.value !== "") {
                 if (num.value >= 0 && num.value < 40) {
